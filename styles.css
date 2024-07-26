@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    background: #0F2027;
+    background: -webkit-linear-gradient(to right, #2C5364, #8b9ca2, #0F2027); 
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); 
+
+}
+
+#main{
+
+    display: flex;
+    justify-content: center;
+}
+#container{
+    width: 500px;
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    border-radius: 5px;
+}
+#container h3{
+   
+    font-size: 30px;
+}
+#input{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+
+}
+#input input{
+    width: 80%;
+    padding: 10px;
+    font-size: 15px;
+    outline-color: royalblue;
+}
+#add{
+    width: 20%;
+    border: 0;
+    background-color: #d0bdf4;
+    color: #000;
+}
+#task{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+   
+}
+
+#task p{
+
+    position: relative;
+    width: 100%;
+    background-color: #d0bdf4;
+    padding: 10px 8px;
+    color: #000;
+    font-size: 17px;
+    text-align: left;
+
+}
+#task p i{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
